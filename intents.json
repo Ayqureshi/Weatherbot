@@ -1,0 +1,272 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "temprn",
+            "patterns": [
+                "How does it feel outside?",
+                "What's the current temperature",
+                "Should I go outside?"
+            ],
+            "responses": [
+                "The forecast for Right Now is: 73.8°"
+            ]
+        },
+        {
+            "tag": "temperature",
+            "patterns": [
+                "How does the weather look today?",
+                "What is the Hourly forecast for today?",
+                "What is the Temperature going to be today"
+            ],
+            "responses": [
+                "59.4° at 00:00:00",
+                "59.5° at 01:00:00",
+                "59.4° at 02:00:00",
+                "60.1° at 03:00:00",
+                "59.5° at 04:00:00",
+                "59.5° at 05:00:00",
+                "59.1° at 06:00:00",
+                "58.8° at 07:00:00",
+                "60.1° at 08:00:00",
+                "62.2° at 09:00:00",
+                "63.8° at 10:00:00",
+                "65.2° at 11:00:00",
+                "69.9° at 12:00:00",
+                "72.4° at 13:00:00",
+                "73.8° at 14:00:00",
+                "73.6° at 15:00:00",
+                "71.1° at 16:00:00",
+                "70.1° at 17:00:00",
+                "69.8° at 18:00:00",
+                "64.2° at 19:00:00",
+                "59.2° at 20:00:00",
+                "57.9° at 21:00:00",
+                "57.5° at 22:00:00",
+                "57.4° at 23:00:00"
+            ]
+        },
+        {
+            "tag": "rainchance",
+            "patterns": [
+                "Will I need an umbrella today??",
+                "Should I expect rain?",
+                "Is it going to rain today?"
+            ],
+            "responses": [
+                "0% at 00:00:00",
+                "0% at 01:00:00",
+                "0% at 02:00:00",
+                "0% at 03:00:00",
+                "0% at 04:00:00",
+                "0% at 05:00:00",
+                "0% at 06:00:00",
+                "0% at 07:00:00",
+                "0% at 08:00:00",
+                "0% at 09:00:00",
+                "0% at 10:00:00",
+                "0% at 11:00:00",
+                "0% at 12:00:00",
+                "0% at 13:00:00",
+                "0% at 14:00:00",
+                "0% at 15:00:00",
+                "0% at 16:00:00",
+                "0% at 17:00:00",
+                "0% at 18:00:00",
+                "0% at 19:00:00",
+                "0% at 20:00:00",
+                "0% at 21:00:00",
+                "0% at 22:00:00",
+                "0% at 23:00:00"
+            ]
+        },
+        {
+            "tag": "currentrainchance",
+            "patterns": [
+                "Is it raining right now?",
+                "What are the chances of rain right now?",
+                "Is it wet outside?"
+            ],
+            "responses": [
+                "The forecast for Right Now is: 0%"
+            ]
+        },
+        {
+            "tag": "maxtemp",
+            "patterns": [
+                "What temperature should I expect in the dat?",
+                "What it is the hottest it will be today?",
+                "Will it be hot today?"
+            ],
+            "responses": [
+                "The forecast for Right Now is: 73.8°"
+            ]
+        },
+        {
+            "tag": "mintemp",
+            "patterns": [
+                "What temperature should I expect in the morning?",
+                "What temperature should I expect in the night?",
+                "What it is the coldest it will be today?",
+                "Will it be cold today?"
+            ],
+            "responses": [
+                "The forecast for Right Now is: 57.5°"
+            ]
+        },
+        {
+            "tag": "maxwindgusts",
+            "patterns": [
+                "How fast are the gusts of wind today?",
+                "Should I expect any gusts of wind today?"
+            ],
+            "responses": [
+                "The forecast for today is: 19.8 km/h"
+            ]
+        },
+        {
+            "tag": "maxwindspeed",
+            "patterns": [
+                "Is it windy today?",
+                "How fast is the wind outside?",
+                "What should I expect at the worst in terms of wind"
+            ],
+            "responses": [
+                "The forecast for today is: 16.5 km/h"
+            ]
+        },
+        {
+            "tag": "sunrise",
+            "patterns": [
+                "When is sunrise today?",
+                "What time is sunrise?",
+                "Is sunrise later today?"
+            ],
+            "responses": [
+                "Sunrise will be at 05:49:11 AM"
+            ]
+        },
+        {
+            "tag": "sunset",
+            "patterns": [
+                "When is sunset today?",
+                "What time is sunset?",
+                "Is sunset later today?"
+            ],
+            "responses": [
+                "Sunset will be at 19:49:27 PM"
+            ]
+        },
+        {
+            "tag": "rainfalltotal",
+            "patterns": [
+                "How many inches of Rain will there be?",
+                "How much rain today?",
+                "Will there be a lot of rain?"
+            ],
+            "responses": [
+                "There will be a total of 0.0 inches"
+            ]
+        },
+        {
+            "tag": "rainduration",
+            "patterns": [
+                "How long will it rain today?",
+                "What's the duration of the rain?"
+            ],
+            "responses": [
+                "It will rain for a total of 0.0 hours"
+            ]
+        },
+        {
+            "tag": "cloudcover",
+            "patterns": [
+                "Will it be really cloudy?",
+                "How do the clouds look",
+                "Will their be any cloudcover",
+                "Will it be overcast today?"
+            ],
+            "responses": [
+                "73% at 00:00:00",
+                "100% at 01:00:00",
+                "100% at 02:00:00",
+                "100% at 03:00:00",
+                "100% at 04:00:00",
+                "100% at 05:00:00",
+                "100% at 06:00:00",
+                "100% at 07:00:00",
+                "100% at 08:00:00",
+                "100% at 09:00:00",
+                "100% at 10:00:00",
+                "100% at 11:00:00",
+                "100% at 12:00:00",
+                "100% at 13:00:00",
+                "64% at 14:00:00",
+                "34% at 15:00:00",
+                "28% at 16:00:00",
+                "69% at 17:00:00",
+                "8% at 18:00:00",
+                "9% at 19:00:00",
+                "41% at 20:00:00",
+                "100% at 21:00:00",
+                "100% at 22:00:00",
+                "100% at 23:00:00"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "What is the Weather like today?",
+                "What Should I expect today?",
+                "How does it look outside?",
+                "Will it be sunny today?"
+            ],
+            "responses": [
+                "The weather today will be Overcast"
+            ]
+        }
+    ]
+}
